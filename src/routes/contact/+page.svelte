@@ -5,6 +5,7 @@
 <PageLayout seoDescription="Contact">
 	<section class="text-center">
 		<p>Let's get in touch! I am always open to discuss new opportunities.</p>
+
 		<h3>
 			<a href="mailto:ericssartorius@gmail.com">ericssartorius@gmail.com</a>
 		</h3>

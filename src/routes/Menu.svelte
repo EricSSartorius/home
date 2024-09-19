@@ -5,7 +5,7 @@
 <nav>
 	<a class:active={$page.url.pathname === '/'} href="/">About</a>
 	<a class:active={$page.url.pathname.startsWith('/posts')} href="/posts">Posts</a>
-	<a class:active={$page.url.pathname.startsWith('/resume')} href="/contact">Resume</a>
+	<a class:active={$page.url.pathname.startsWith('/resume')} href="/resume">Resume</a>
 	<a class:active={$page.url.pathname.startsWith('/contact')} href="/contact">Contact</a>
 </nav>
 
