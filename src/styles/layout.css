@@ -1,0 +1,64 @@
+@layer layout {
+	.layout {
+		--aside-width: var(--min-layout-width);
+		--main-width: var(--max-content-width);
+
+		column-gap: var(--gap);
+		display: grid;
+		grid-template-columns:
+			[start gap] minmax(var(--gap), 1fr) [gap content main] minmax(0, var(--main-width)) [main sidebar]
+			minmax(0, var(--aside-width)) [sidebar content-end gap] minmax(var(--gap), 1fr) [gap end];
+
+		> * {
+			grid-column: content / content;
+		}
+
+		.full {
+			width: 100%;
+			grid-column: start / end;
+		}
+
+		.aside {
+			width: 100%;
+			grid-column: sidebar / sidebar;
+		}
+		.main {
+			width: 100%;
+			grid-column: main / main;
+		}
+	}
+
+	.flex {
+		display: flex;
+		gap: var(--gap);
+		align-items: center;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(var(--min-content-width), 1fr));
+		grid-gap: var(--gap);
+	}
+
+	.column {
+		display: flex;
+		flex-direction: column;
+		gap: var(--gap);
+	}
+
+	.card {
+		background-color: var(--bg-1);
+		border-radius: var(--border-radius);
+		box-shadow: var(--shadow-lg);
+		padding: var(--gap);
+	}
+
+	.border {
+		border: var(--border);
+		border-radius: var(--border-radius);
+	}
+
+	.max-input-width {
+		max-width: var(--max-input-width);
+	}
+}

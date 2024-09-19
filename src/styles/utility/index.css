@@ -1,0 +1,11 @@
+/**
+* Utility styles
+*
+* @layer utilities
+* All utility classes should be defined here. They should be single purpose and not tied to any specific component. We can use them inline, much like tailwind.
+*/
+
+@import './typography.css';
+@import './scale.css';
+@import './colors.css';
+@import './layout.css';

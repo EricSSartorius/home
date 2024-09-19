@@ -1,0 +1,37 @@
+@media (prefers-color-scheme: dark) {
+	[data-theme='dark'] body {
+		--bg: var(--black-9);
+		--bg-1: var(--black-8);
+		--bg-2: var(--black-7);
+		--text: var(--black-1);
+		--title: var(--white);
+		--subtext: var(--black-4); 
+		--topnav-color: var(--bg);
+		--border-color: var(--black-6);
+	}
+}
+
+/* Same as prefers color scheme dark */
+[data-theme='dark'] body,  
+body {
+	--bg: var(--black-9);
+	--bg-1: var(--black-8);
+	--bg-2: var(--black-7);
+	--text: var(--black-2);
+	--title: var(--white);
+	--subtext: var(--black-4); 
+	--topnav-color: var(--bg);
+	--border-color: var(--black-6);
+}
+
+[data-theme='light'] body {
+	--bg-2: var(--white);
+	--bg-1: var(--white);
+	--bg: var(--black-1);
+	--text: var(--black-7);
+	--title: var(--black);
+	--subtext: var(--black-6);
+	--border-color: var(--black-4);
+	--topnav-color: var(--dark-blue);
+	--tint: oklch(100% 0 0 / 80%);
+}

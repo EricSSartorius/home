@@ -1,0 +1,56 @@
+@layer utilities {
+  .primary {
+    color: var(--primary);
+  }
+  .secondary {
+    color: var(--secondary);
+  }
+  .text {
+    color: var(--text);
+  }
+  .title {
+    color: var(--title);
+  }
+  .subtext {
+    color: var(--subtext);
+  }
+  .success {
+    color: var(--success);
+  }
+  .warning {
+    color: var(--warning);
+  }
+  .caution {
+    color: var(--caution);
+  }
+  .info {
+    color: var(--info);
+  }
+  .bg {
+    background-color: var(--bg);
+  }
+  .bg-1 {
+    background-color: var(--bg-1);
+  }
+  .bg-2 {
+    background-color: var(--bg-2);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .bg-success {
+    background-color: var(--success);
+  }
+  .bg-warning {
+    background-color: var(--warning);
+  }
+  .bg-caution {
+    background-color: var(--caution);
+  }
+  .bg-info {
+    background-color: var(--info);
+  }
+}

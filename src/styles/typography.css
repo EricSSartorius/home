@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'BigNoodleTitling Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BigNoodleTitling Oblique'), url('/src/fonts/big_noodle_titling_oblique.woff') format('woff');
+}
+
+:root {
+	/* Typography */
+	--body-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+		helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	--heading-font-family:"BigNoodleTitling Oblique",  -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+		helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+
+	--font-size-xxs: 0.625rem;
+	--font-size-xs: 0.75rem;
+	--font-size-sm: 1rem;
+	--font-size-base: 1.25rem;
+	--font-size-md: 1.25rem;
+	--font-size-lg: 1.75rem;
+	--font-size-xl: 2rem;
+	--font-size-xxl: 2.75rem;
+	--font-size-xxxl: 3.2rem;
+	--font-size-inherit: inherit;
+
+	--normal-weight: 400;
+	--medium-weight: 500;
+	--semi-bold-weight: 600;
+	--bold-weight: 700;
+}
+
+@layer base {
+	body {
+		font-family: var(--body-font-family);
+		font-size: var(--font-size-base);
+		line-height: 1.25;
+		font-weight: var(--normal-weight);
+		font-synthesis: none;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: var(--heading-font-family);
+		font-weight: var(--bold-weight);
+		letter-spacing: -0.04em;
+		line-height: 1.4;
+		margin-block: 0.2em;
+		text-wrap: balance;
+		color: var(--title);
+
+		/* ID Links show on hover */
+		--opacity: 0;
+
+		&:hover {
+			--opacity: 1;
+		}
+
+		a[href^='#'] {
+			display: inline-block;
+			height: 100%;
+			margin-left: 0.25rem;
+			opacity: var(--opacity);
+			&:before {
+				content: '#';
+			}
+		}
+	}
+
+	h1,
+	.h1 {
+		font-size: var(--font-size-xxxl);
+	}
+
+	h2,
+	.h2 {
+		font-size: var(--font-size-xxl);
+	}
+
+	h3,
+	.h3 {
+		font-size: var(--font-size-xl);
+	}
+
+	h4,
+	.h4 {
+		font-size: var(--font-size-lg);
+	}
+
+	h5,
+	.h5 {
+		font-size: var(--font-size-md);
+	}
+
+	.h6,
+	h6,
+	p,
+	li {
+		font-size: var(--font-size-base);
+	}
+
+	p {
+		line-height: 1.7;
+		margin-block: 0.1em;
+	}
+}

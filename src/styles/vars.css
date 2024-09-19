@@ -1,0 +1,38 @@
+
+:root {
+		/* Radii */
+    --border: 1px solid var(--border-color);
+    --border-radius: 8px;
+    --circle-radius: 9999px;
+    --input-radius: 6px;
+
+    /* Borders */
+    --border-size: 1px;
+    --border: solid var(--border-size) var(--border-color);
+
+    /* Layout */
+    --min-layout-width: 325px;
+    --max-layout-width: 1400px;
+    --max-content-width: 880px;
+    --max-input-width: 600px;
+    --topnav-height: 50px;
+
+		/* Levels */
+    --base-level: 0;
+    --header-level: 10;
+    --modal-level: calc(var(--header-level) * 10);
+    --toast-level: calc(var(--modal-level) + 2);
+    --highest-level: calc(var(--modal-level) * 10);
+
+    --transition-speed: .3s;
+
+			/* Shadow */
+    --shadow-none: none;
+    --shadow-sm: 0px 1px 4px rgb(116, 120, 129, .16), 0px 0px 1px 1px rgb(116, 120, 129, .02);
+    --shadow-md: 0px 3px 12px rgb(116, 120, 129, .08), 0px 1px 4px rgb(116, 120, 129, .08), 0px 0px 1px 1px rgb(116, 120, 129, .02);
+    --shadow-lg: 0px 4px 24px -4px rgb(116, 120, 129, .24), 0px 1px 4px hsla(209, 8%, 50%, .08), 0px 0px 1px 1px rgb(116, 120, 129, .02);
+    --shadow-xl: 0px 16px 40px -8px rgb(116, 120, 129, .16), 0px 1px 4px hsla(209, 8%, 50%, .2), 0px 0px 1px 1px rgb(116, 120, 129, .02);
+}
+
+
+

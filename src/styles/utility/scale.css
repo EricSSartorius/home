@@ -1,0 +1,64 @@
+  /* 
+  Spacing utilities.
+  
+  Use when things don't 'fit' on a page as expected but normally would only be used within components. 
+  
+  Best to not overuse so only add new cases as needed, might be better to rely on gaps from flex and grid layouts. 
+  
+  example: [margin/padding]-[placement]-[size] or [margin/padding/gap]-[size]
+  
+  */
+
+@layer utilities {
+  /* Margins */
+  .margins {
+    margin: var(--gap);
+  }
+  .margin-0 {
+    margin: 0;
+  }
+  .margin-top-0 {
+    margin-top: 0;
+  }
+  .margin-bottom-0 {
+    margin-bottom: 0;
+  }
+  .margin-top {
+   margin-top: var(--gap);
+  }
+  .margin-top-base {
+    margin-top: var(--gap-base);
+  }
+  .margin-bottom {
+    margin-bottom: var(--gap);
+  }
+  /* Padding */
+  .padding {
+    padding: var(--gap);
+  }
+  .padding-0 {
+    padding: 0;
+  }
+    /* Gap */
+  .gap {
+    gap: var(--gap);
+  }
+  .gap-0 {
+    gap: 0;
+  }
+  .gap-lg {
+    gap: var(--gap-lg);
+  }
+  .gap-xl {
+    gap: var(--gap-xl);
+  }
+  .gap-sm {
+    gap: var(--gap-sm);
+  }
+  .gap-xs {
+    gap: var(--gap-xs);
+  }
+  .gap-xxs {
+    gap: var(--gap-xxs);
+  }
+}

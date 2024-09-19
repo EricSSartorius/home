@@ -1,0 +1,40 @@
+@layer utilities {
+	.grid-center {
+		display: grid;
+		place-items: center;
+	}
+
+	.lines {
+		display: grid;
+		grid-template-columns: 1fr auto 1fr;
+		grid-gap: 1rem;
+		align-items: center;
+		&:before,
+		&:after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: clamp(1px, 0.1ch, 2px);
+			background-color: var(--border-color, currentcolor);
+		}
+	}
+
+	.full-width {
+		width: 100%;
+	}
+
+	.max-width {
+		max-width: var(--max-content-width);
+	}
+
+	.max-input-width {
+		max-width: var(--max-input-width);
+	}
+
+	.hidden-mobile {
+		display: none;
+		@media (--below-med) {
+			display: initial;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+@layer base {
+	body {
+		background: var(--bg);
+		color: var(--text);
+	}
+
+	a,
+	.a {
+		color: var(--primary);
+		text-decoration: none;
+	}
+
+	a:hover {
+		cursor: pointer;
+	}
+
+  ul {
+    list-style: none;
+  }
+  
+	:is(p, li) a,
+	.a {
+		color: var(--title);
+		font-weight: var(--semi-bold-weight);
+		text-decoration: underline;
+	}
+}
