@@ -3,8 +3,7 @@
 Made with Sveltekit
 
 ```bash
-# create a new project in the current directory
-pnpm i
+npm i
 
 npm run dev
 ```
