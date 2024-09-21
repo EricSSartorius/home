@@ -1,13 +1,13 @@
 <script lang="ts">
 	import BlobWrapper from '$lib/components/BlobWrapper.svelte';
-	import Construction from '$lib/components/Construction.svelte';
+	// import Construction from '$lib/components/Construction.svelte';
 	import SocialMedia from '$lib/components/SocialMedia.svelte';
 	import '../styles/index.css';
 	import Menu from './Menu.svelte';
 	const { children } = $props();
 </script>
 
-<Construction />
+<!-- <Construction /> -->
 <main class="relative">
 	<BlobWrapper>
 		<h1 class="text-gradient text-center margin-top"><a href="/">Eric Sartorius</a></h1>
