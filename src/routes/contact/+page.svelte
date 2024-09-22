@@ -14,7 +14,7 @@
 
 <style>
 	a {
-		font-size: var(--font-size-xxxl);
+		font-size: clamp(var(--font-size-xl), 5vw, var(--font-size-xxxl));
 		color: var(--secondary);
 		transition-property: all;
 		transition-duration: 0.5s;

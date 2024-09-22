@@ -8,24 +8,27 @@
 </script>
 
 <!-- <Construction /> -->
-<main class="relative">
+<div class="site-wrapper">
 	<BlobWrapper>
 		<h1 class="text-gradient text-center margin-top"><a href="/">Eric Sartorius</a></h1>
 		<Menu />
-		{@render children()}
+		<main>
+			{@render children()}
+		</main>
 	</BlobWrapper>
-</main>
+</div>
 <footer>
 	<SocialMedia />
 	<span class="subtext text-sm">&copy;{new Date().getFullYear()}</span>
 </footer>
 
 <style>
-	main {
+	.site-wrapper {
 		display: flex;
 		flex-direction: column;
 		max-width: 800px;
 		margin: 0 auto;
+		overflow: hidden;
 		padding: var(--gap-lg) var(--gap-lg) var(--gap-xl) var(--gap-lg);
 	}
 
