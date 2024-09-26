@@ -13,7 +13,7 @@
 						href="https://purefunc.io"
 						target="_blank"
 						rel="noopener noreferrer">Pure Func</a
-					> for anyone looking to get a startup off the ground.
+					> for anyone looking to get a website or digital product off the ground.
 				</p>
 			</li>
 			<li>
@@ -33,13 +33,13 @@
 				</p>
 			</li>
 			<li>
-				<h3>Movement Coach</h3>
+				<h3>Movement</h3>
 				<p>
-					I am now into my 40s yet never seemed to have outgrown my days at the playground. I have
-					over 20 years experience in breakdancing, 10 years in calisthenics training, as well as
-					experience in Capoeira, acrobatics, stunt work, pole dancing, boxing, Brazilian Jiu Jitsu,
-					tricking, gymnastics, and parkour. I would love to help anyone else that wants to test the
-					limits of their body and move like they never have before.
+					I never seemed to have outgrown my days at the playground. I have over 20 years experience
+					in breakdancing, 10 years in calisthenics training, as well as experience in Capoeira,
+					acrobatics, stunt work, pole dancing, boxing, Brazilian Jiu Jitsu, tricking, gymnastics,
+					and parkour. I love to test the limits of my body and am curious to see how long I can
+					keep it up.
 				</p>
 			</li>
 		</ul>
