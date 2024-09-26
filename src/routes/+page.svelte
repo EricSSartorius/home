@@ -32,7 +32,7 @@
 					scrolling="no"
 					src="https://syntax.fm/embed/586"
 					title="Show Embed"
-					style="width: 100%; height: 230px; max-width: 737px; border-radius: var(--card_radius); background: var(--black-100); margin-bottom: var(--gap_large);"
+					style="width: 100%; height: 230px; max-width: 800px; background: var(--bg); border: 1px solid var(--bg-2)"
 				/>
 			</li>
 			<li>

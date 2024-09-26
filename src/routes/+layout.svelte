@@ -26,10 +26,13 @@
 	.site-wrapper {
 		display: flex;
 		flex-direction: column;
-		max-width: 800px;
-		margin: 0 auto;
 		overflow: hidden;
 		padding: var(--gap-lg) var(--gap-lg) var(--gap-xl) var(--gap-lg);
+	}
+
+	main {
+		margin: 0 auto;
+		max-width: 800px;
 	}
 
 	footer {
