@@ -22,6 +22,18 @@
 					Life is short and I want to see how much I can explore and learn before I die! If you are
 					curious about my world travels check out my <a href="/posts/">travel blog.</a>
 				</p>
+
+				<p>
+					Or to hear more about digital nomading have a listen to my podcast episode on
+					<a href="https://syntax.fm" target="_blank" rel="noopener noreferrer">Syntax.fm</a>!
+				</p>
+				<br />
+				<iframe
+					scrolling="no"
+					src="https://syntax.fm/embed/586"
+					title="Show Embed"
+					style="width: 100%; height: 230px; max-width: 737px; border-radius: var(--card_radius); background: var(--black-100); margin-bottom: var(--gap_large);"
+				/>
 			</li>
 			<li>
 				<h3>Translation</h3>
