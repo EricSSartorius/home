@@ -10,7 +10,7 @@ Creating a web application can be a daunting task, but with the help of AI, I wa
 <br/>
 <br/>
 
-![Meny Digital Menu Generator](/src/images/meny.png)
+<!-- ![Meny Digital Menu Generator](/src/images/meny.png) -->
 
 ## The Frontend: Crafting the UI with AI
 
