@@ -21,7 +21,7 @@ Web developer, linguist, and entrepreneur with over a decade of coding experienc
 
 **Fast DMS**  
 *Project Owner*  
-*12/2022 - 9/2022, Remote*  
+*12/2022 - 9/2024, Remote*  
 - Lead a team of engineers and a designer to curate a scalable internal project management tool from the ground up
 - Translate the vision of the CEO and needs of the company to a product that vastly improved the company's workflow
 - Manage the product and conduct regular sprints and planning sessions
@@ -68,7 +68,13 @@ Web developer, linguist, and entrepreneur with over a decade of coding experienc
 
 ---
 
-## Projects
+## Projects & Contracts
+
+**Sentry**  
+*9/2024 - 11/2024*  
+- Sole developer contracted to create a Shopify swag store
+- Built a new e-commerce store from the ground up using Hydrogen and React
+- Successfully built, contributed to UX, and managed products within Shopify before deploying within a tight timeline
 
 **Rachio**  
 *1/2018 - 2/2021*  
